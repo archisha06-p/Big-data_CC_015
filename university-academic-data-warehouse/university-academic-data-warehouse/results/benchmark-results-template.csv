@@ -1,4 +1,4 @@
 table,query_description,run_1_seconds,run_2_seconds,run_3_seconds,median_seconds,explain_evidence_file,notes
-bench_marks,COUNT and AVG filtered to S1,,,,,,
-bench_marks_partitioned,COUNT and AVG filtered to S1,,,,,,
-bench_marks_bucketed,COUNT and AVG filtered to S1,,,,,,
+bench_marks,COUNT and AVG filtered to S1,1.438,0.976,1.102,1.102,,Standard table; baseline
+bench_marks_partitioned,COUNT and AVG filtered to S1,1.095,1.175,0.990,1.095,,Partitioned by semester_id
+bench_marks_bucketed,COUNT and AVG filtered to S1,0.877,0.997,0.921,0.921,,Bucketed by student_id into 4 buckets

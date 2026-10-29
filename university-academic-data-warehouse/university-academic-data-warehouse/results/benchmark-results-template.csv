@@ -1,0 +1,4 @@
+table,query_description,run_1_seconds,run_2_seconds,run_3_seconds,median_seconds,explain_evidence_file,notes
+bench_marks,COUNT and AVG filtered to S1,,,,,,
+bench_marks_partitioned,COUNT and AVG filtered to S1,,,,,,
+bench_marks_bucketed,COUNT and AVG filtered to S1,,,,,,
